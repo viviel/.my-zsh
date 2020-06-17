@@ -15,4 +15,6 @@ source $ZSH_PLUGINS/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source $ZSH_THEMES/simple.zsh
 
 # Load profile
-source $ZSH/profile
+if [ -f "$ZSH/profile" ];then
+  source $ZSH/profile
+fi
