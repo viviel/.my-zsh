@@ -1,0 +1,5 @@
+# Load zsh config
+export ZSH=~/.my-zsh
+export DEV_HOME=
+source ~/.my-zsh/my-zsh.sh
+
